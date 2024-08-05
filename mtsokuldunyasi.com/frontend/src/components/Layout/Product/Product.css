@@ -1,0 +1,13 @@
+.product_outher{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.product_outher h1{
+    font-weight: 900;
+    font-size: 2rem;
+}

@@ -1,0 +1,23 @@
+.notFount_outher{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.notFount_outher >h1{
+    font-size: 8rem;
+    font-weight: 900;
+}.notFount_outher >span{
+    font-size: 3rem;
+    font-weight: 600;
+}
+@media screen and (max-width:990px){
+    .notFount_outher >h1{
+        font-size: 3rem;
+    }.notFount_outher >span{
+        font-size: 1rem;
+    }
+}

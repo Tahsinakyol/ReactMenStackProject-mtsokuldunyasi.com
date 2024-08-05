@@ -1,0 +1,64 @@
+.contact_outher{
+    width: 100%;
+  
+}
+.contactHeader{
+    font-weight: 900;
+    font-size:2rem;
+    letter-spacing: 1px;
+    color: var(--main_color);
+}
+.cotact_details{
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.Form_outher{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-top: 15px;
+}
+.Form_outher >span{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.Form_outher input{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #dadada;
+    outline: 0 !important;
+    padding: 0 15px;
+    color:#333;
+    font-size: 1rem;
+}
+.Form_outher textarea{
+    width: 100%;
+    min-height: 150px;
+    border: 1px solid #dadada;
+    outline: 0 !important;
+    padding: 15px;
+    color:#333;
+    font-size: 1rem;
+}
+.buttonSubmit{
+    width: 250px;
+    height: 45px;
+    border: 1px solid #dadada;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: none;
+    color:#333;
+}
+.buttonSubmit:hover{
+    background: var(--main_color);
+    color:#fff !important;
+    transition: ease 0.5s all;
+}
+.left_contact_outher{
+    width: 100%;
+    border-right: 1px solid #dadada;
+    padding: 25px 0;
+    padding-right: 15px;
+}

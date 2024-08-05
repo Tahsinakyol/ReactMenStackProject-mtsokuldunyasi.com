@@ -1,0 +1,41 @@
+.input_admin{
+    width: 100%;
+    height: 45px;
+    font-size: 1rem;
+    color: #333;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    outline: 0 !important;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+.label_admin{
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+}
+.admin_area{
+    width: 100%;
+    min-height: 120px;
+    max-height: 500px;
+    font-size: 1rem;
+    color: #333;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    outline: 0 !important;
+    padding:15px;
+    margin-bottom: 10px;
+}
+.admin_button{
+    background-color: #001529;
+    height: 45px;
+    width: 200px;
+    font-size: 1.1rem;
+    color: #ffff;
+    font-weight: 500;
+}
+@media screen and (max-width:990px){
+    .input_admin,.admin_button,.admin_area,.label_admin{
+        font-size: 14px;
+    }
+}

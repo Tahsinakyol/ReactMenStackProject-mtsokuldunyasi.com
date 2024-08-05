@@ -1,0 +1,33 @@
+.adminHeader{
+    color: var(--main_color );
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.inner_imageAdmin{
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+}
+.imageInnderNot{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.input_uploading{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+}
+.uploadingArea{
+    width: 100%;
+    min-height: 120px;
+    margin-bottom: 15px;
+    max-height: 300px
+}
+.buttonSubmitting{
+    width: 100%;
+    height: 45px;
+    background-color: var(--main_color);
+    color: #fff;
+}

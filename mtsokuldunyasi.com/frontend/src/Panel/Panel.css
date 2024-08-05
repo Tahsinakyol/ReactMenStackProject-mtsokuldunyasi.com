@@ -1,0 +1,62 @@
+/* LoginForm.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+  }
+  
+  .login-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  .login-box h2 {
+    background: var(--main_color);
+    color: white;
+    margin: -20px -20px 20px -20px;
+    padding: 15px 0;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .input-group input[type="checkbox"] {
+    width: auto;
+  }
+  
+  .input-group label {
+    margin-left: 10px !important;
+    cursor: pointer;
+  }
+  
+  .login-button {
+    background: var(--main_color);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .login-button:hover {
+    background: #50aae2;
+  }
+  

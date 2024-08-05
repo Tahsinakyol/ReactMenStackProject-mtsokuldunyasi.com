@@ -1,0 +1,47 @@
+.Social_outher{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.images_social{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.abs_socials{
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    background-color: #333333d1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.socialIcons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+.socialIcons h1{
+    color: var(--main_color);
+    font-size: 3rem;
+    font-weight: 900;
+}
+.socialIcons span{
+    color: #fff;
+    font-size: 2rem;
+}
+@media screen and (max-width:990px){
+    .socialIcons{
+        justify-content: center;
+        align-items: center;
+    }
+    .socialIcons h1{
+        font-size: 2rem;
+    }  .socialIcons span{
+        font-size: 1.2rem;
+    }
+}
